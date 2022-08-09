@@ -10,8 +10,8 @@ console.log(numero === numeroString)
 //teste de soma = resultado 2020
 console.log(numero + numeroString)
 
-//Number() = converte para numero
-//String() = converte para string
+//Number() = converte para numero - outra opção é colocar + na frente da variavel ex: + numeroString
+//String() = converte para string - outra opçõa é o .toString()
 //obs a variavel pode ser iniciada ja convertida ex: const numeroString = Number("20")
 //teste de soma com conversao = resultado 40
 console.log(numero + Number(numeroString))
