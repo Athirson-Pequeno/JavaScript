@@ -20,6 +20,8 @@ imprimeTexto("chamei de novo");
 //função com retorno---
 function soma(){
 const resultado = 2 + 2;
+
+//return tem que ser a última linha, nada depois será executado
 return resultado;
 }
 
