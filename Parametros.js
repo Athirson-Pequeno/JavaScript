@@ -32,3 +32,14 @@ function multiplica(n1 = 1, n2 = 1){
 //o resultado das funções somas e passado para a função multiplica
 console.log(multiplica(soma(5,2),soma(3,2)));
 console.log(multiplica(soma(3,2)));
+
+
+function cumprimentar(){
+    return 'Oi gente!'
+   }
+   
+   function cumprimentaPessoa(nomePessoa) {
+    console.log(`${cumprimentar()} Meu nome é ${nomePessoa}`)
+   }
+   
+   cumprimentaPessoa('Athirson') // “Oi gente! Meu nome é Paula”
